@@ -1,0 +1,46 @@
+/*1. color general de la lletra negra*/
+
+body{/*Aqui agafem un selector amb etiqueta body de l'html, i canviem tota la lletra del body a color negre*/
+    color: black ;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+
+#titol-pagina{ /*Aqui estem establint el fons en blanc i el text en gris per a l'element amb l'id "títol-pagina".*/
+
+    background-color:white;
+    color: grey;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+
+strong, .paragraf2 strong{/*Aqui estem definint que els elements <strong> amb la classe .paragraf2 tindràn el color verd i estaràn subratllats.*/
+    color:#03be2c !important;
+    text-decoration: underline;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+
+.paragraf2{ /*Aqui estem establint l'estil de font en cursiva a tots els elements amb la classe .paragraf2.*/
+    font-style: italic; 
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+
+footer{ /*Aqui estem centrant el contingut i establint una mida de font de 10 píxels per a l'element footer.*/
+    text-align: center;
+    font-size: 10px ;
+}
+hola
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+/*Al canviar l'ordre, el color de la lletra canvia al de l'anterior fitxer i el color del strong tambe canvia.
+ Per a que aixo no pasi, modificariem el nostre fitxer utilitzant la comanda "!important" al nostre codi.css,
+ i tot allo que li apliquem aquesta comanda, no es modificara res alhora de canviar l'ordre dels fitxers de carrega */
+/*
+strong, .paragraf2 strong{
+    color:#03be2c !important;
+    text-decoration: underline;
+}
+*/
+
